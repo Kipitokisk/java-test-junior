@@ -36,6 +36,6 @@
     <select id="findAll" resultMap="productResultMapper">
         SELECT *
         FROM product
-        LIMIT #{pagesize} OFFSET #{offset}
+        LIMIT #{pageSize} OFFSET #{offset}
     </select>
 </mapper>
